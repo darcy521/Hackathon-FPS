@@ -1,0 +1,53 @@
+.involvedContainer{
+    min-height: 100vh;
+  }
+  
+  .involvePage{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .involvedtitle{
+    height: fit-content;
+    align-items: center;
+    border: none;
+    margin-top: 10%;
+    
+  }
+  
+  .mainBody{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .stepGroup{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: none;
+  }
+  
+  .step1, .step2, .step3, .step4{
+    border: none;
+    text-align: justify;
+    padding: 1%;
+  }
+  
+  .stepImg{
+    width: 30%;
+  }
+  
+  .donateDescriptionGroup{
+    width: 50%;
+  }
+  
+  .donateDescription{
+    border: none;
+    width: 100%;
+  }
+  
+  .titlesize{
+    font-size: 6vw;
+  }
