@@ -1,0 +1,11 @@
+
+.form{
+    top: 20%;
+    padding: 2% 3% 3% 2%;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-end;
+}
