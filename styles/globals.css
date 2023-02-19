@@ -86,7 +86,7 @@ body {
 
 .combo{
     display: flex;
-
+    width: 100%;
 }
 
 .scroll-bd{
@@ -143,7 +143,7 @@ body {
     object-fit: cover;
   }
 .story_image {
-    height: '100px';
+    height: 100px;
     width: 100%;
 }
 /* body {
