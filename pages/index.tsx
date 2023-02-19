@@ -16,16 +16,32 @@ const Home: NextPage = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+            <Card className={styles.picasso}>
+                  <div className={styles.logoBox}>
+                    <Image 
+                    alt="image"
+                    src={'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/FPS_transparent.PNG?alt=media&token=c9cc8a92-8e3d-4fce-a2bd-c82f60a724b9'}
+                    className={styles.picassoImg}
+                    width={'25%'}
+                    height={'25%'}
+                    />
+                <Card.Body className={styles.picassoBody}>
+                    <Card.Title className={styles.picasso_description}> Female Period Support </Card.Title>
+                </Card.Body>
+                </div>
+            </Card>
             <CardGroup className={styles.homePage}>
                 <div>
                     <CardGroup className={styles.startImg}>
                         <Card>
                             <Image
                                 src={
-                                    'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/two_hands.jpg?alt=media&token=71be8f67-6d51-41d4-8f74-e5fc08aeabc6'
+                                    'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/two_hands.jpg?alt=media&token=4c0a113c-6b90-455c-a130-4af4dad6bc91'
                                 }
+                                className={styles.mainImg}
+                                alt=''
                                 width={'100%'}
-                                height={970}/>
+                                height={'100%'}/>
                         </Card>
                     </CardGroup>
                 </div>
