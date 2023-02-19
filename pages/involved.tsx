@@ -3,6 +3,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { Card, CardGroup, Container } from 'react-bootstrap'
 import Button from 'react-bootstrap/Button'
+import Map from '@/components/map/map'
 
 const Involved: NextPage = () => {
 
@@ -69,6 +70,7 @@ const Involved: NextPage = () => {
                     
                 </CardGroup>
                 </Container>
+                <Map/>   
         </>
     )
 }
