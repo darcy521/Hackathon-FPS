@@ -93,11 +93,11 @@ const Home: NextPage = () => {
                         <Card>
                             <Image
                                 src={
-                                    'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/handinhand.jpg?alt=media&token=c60b9eef-eadb-4cb7-984f-dea20beb9eae'
+                                    'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/CartoonBang.jpg?alt=media&token=d6f09342-ba1a-4e04-969f-fd414c34202f'
                                 }
                                 alt="starter"
                                 width={'100%'}
-                                height={300}/>
+                                height={170}/>
                         </Card>
                     </CardGroup>
                 </div>
