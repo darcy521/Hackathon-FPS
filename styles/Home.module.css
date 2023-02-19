@@ -59,3 +59,42 @@
   .titlesize{
     font-size: 6vw;
   }
+
+.ourMission{
+  background-color: #D58989;
+  min-height: 27vh;
+}
+
+.homePage{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.homePageTxtGroup{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txtGroup{
+  background-color:transparent;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.missionTitle{
+  font-size: 4em;
+  font-family: "Brush Script MT";
+  color: white;
+}
+
+.missionText{
+  font-size: 1.5em;
+  font-family: "Tahoma";
+  color: white;
+}
