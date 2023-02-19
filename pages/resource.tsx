@@ -73,9 +73,9 @@ const Resource: NextPage = () => {
                                         {/*    /!*{data.email}*!/*/}
                                         {/*</Card.Text>*/}
                                         <table>
-                                            <Card.Text className="shelter-information">Address： {data.address}</Card.Text>
-                                            <Card.Text className="shelter-information">Website： {data.website}</Card.Text>
-                                            <Card.Text className="shelter-information">Email： &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{data.email}</Card.Text>
+                                            <Card.Text className="shelter-information">Address: {data.address}</Card.Text>
+                                            <Card.Text className="shelter-information">Website: {data.website}</Card.Text>
+                                            <Card.Text className="shelter-information">Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{data.email}</Card.Text>
                                         </table>
                                         <br/>
                                     </li>
