@@ -190,6 +190,7 @@
 
 
 .homePage{
+  margin-top: -10px;
   min-height: 100vh;
   width: 100%;
   display: flex;
@@ -284,4 +285,9 @@
   width: 30%;
   display: flex;
   flex-direction: column;
+}
+
+.slogan{
+  font-size: 7em;
+  font-family: "Brush Script MT";
 }

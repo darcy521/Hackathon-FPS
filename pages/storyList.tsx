@@ -62,47 +62,12 @@ import React, { useRef, useEffect, useState } from "react";
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            {/*<div>*/}
-              {/*<img style = {{height : '230px', width: '100%'}} src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/handinhand.jpg?alt=media&token=c60b9eef-eadb-4cb7-984f-dea20beb9eae" className="img-fluid"/>*/}
-              {/*      <Card style={{ width: '50%', marginTop: '10px' , marginLeft: 'auto', marginRight: 'auto'}}>*/}
-              {/*        <Card.Img style = {{height: '500px'}}*/}
-              {/*                  className = "story_image"*/}
-              {/*                  variant="top" */}
-              {/*                  src = "https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Yulin_Story.jpg?alt=media&token=9edb0080-28db-4fc0-b0dd-9c2b72e64d68"/>*/}
-              {/*        <Card.Body>*/}
-              {/*        <Card.Title> Yulin </Card.Title>*/}
-              {/*        <Card.Text style = {{ textAlign: 'justify' }}>*/}
-              {/*          {data}*/}
-              {/*        </Card.Text>*/}
-              {/*        <div className="col text-center">*/}
-              {/*          <Button href="" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px'}} >Like</Button>*/}
-              {/*        </div>*/}
-              {/*        </Card.Body>*/}
-              {/*    </Card>*/}
-
-                  {/*<Card style={{ width: '50%', marginTop: '10px' , marginLeft: 'auto', marginRight: 'auto'}}>*/}
-                  {/*    <Card.Img style = {{height: '300px'}}*/}
-                  {/*              className = "story_image"*/}
-                  {/*              variant="top" */}
-                  {/*              src = "https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Yulin_Story.jpg?alt=media&token=9edb0080-28db-4fc0-b0dd-9c2b72e64d68"/>*/}
-                  {/*    <Card.Body>*/}
-                  {/*    <Card.Title> Daniel </Card.Title>*/}
-                  {/*    <Card.Text style = {{ textAlign: 'justify' }}>*/}
-                  {/*    {data2}*/}
-                  {/*    </Card.Text>*/}
-                  {/*    <div className="col text-center">*/}
-                  {/*      <Button href="" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px'}} >Like</Button>*/}
-                  {/*    </div>*/}
-                  {/*    </Card.Body>*/}
-                  {/*</Card>*/}
-
-
 
 
 
             {/*</div>*/}
             <CardGroup className={styles.homePage}>
-                <div className=" col-5 ">
+                <div className=" col-10 " style={{ width: '50%', marginTop: '10px' , marginLeft: 'auto', marginRight: 'auto'}}>
                     <div className="storyBackground">
                         <Card className="text-center">
                             <Card.Img className = "img-responsive center-block"
@@ -120,7 +85,7 @@ import React, { useRef, useEffect, useState } from "react";
                     </div>
 
                 </div>
-                <div className=" col-5 ">
+                <div className=" col-10 "  style={{ width: '50%', marginTop: '10px' , marginLeft: 'auto', marginRight: 'auto'}}>
                     <div className="storyBackground">
                         <Card className="text-center">
                             <Card.Img className = "img-responsive center-block"
@@ -142,7 +107,7 @@ import React, { useRef, useEffect, useState } from "react";
                     <iframe
                         src="https://docs.google.com/forms/d/e/1FAIpQLScf5mBun0b0YIQ6owQyfh6D2FbjuAdmhv7KQhVS7qGbZVwvGw/viewform?embedded=true"
                         width="900" height="1460"
-                        className="center-block">Loading…
+                        className="center-block" style={{ width: '100%', marginTop: '10px' , marginLeft: 'auto', marginRight: 'auto'}}>Loading…
                     </iframe>
                 </div>
             </CardGroup>
