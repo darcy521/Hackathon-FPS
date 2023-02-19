@@ -53,7 +53,11 @@ const Resource: NextPage = () => {
             </Head>
             <div className="App">
                 <div >
-                    <img src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/FindingYourOrganizations.jpg?alt=media&token=6cf9bb88-80f4-4479-849a-474ebb4165ff" className="finding_img"/>
+                    <Image src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/FindingYourOrganizations.jpg?alt=media&token=6cf9bb88-80f4-4479-849a-474ebb4165ff" 
+                    className="finding_img"
+                    alt=''
+                    width={'100%'}
+                    height={'110%'}/>
                 </div>
                 <div className="combo">
                     <div className="scroll-bd">
