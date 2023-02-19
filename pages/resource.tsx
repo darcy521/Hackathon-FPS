@@ -1,10 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'react-bootstrap/image'
+import Image from 'react-bootstrap/Image'
 import styles from '@/styles/Home.module.css'
-import Form from 'react-bootstrap/Form'
-import Button from 'react-bootstrap/Button'
-import Link from 'next/link'
 import { Card, CardGroup } from 'react-bootstrap'
 import React from "react";
 import axios from 'axios';
