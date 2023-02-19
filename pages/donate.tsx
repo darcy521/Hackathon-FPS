@@ -25,7 +25,7 @@ const Donate: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-          <img style = {{height : '230px', width: '100%'}} src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/hand%20in%20hand.jpg?alt=media&token=cf7a0bae-0cdd-4f59-a8e7-99f8e03c4175" className="img-fluid"/>
+          <img style = {{height : '230px', width: '100%'}} src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/handinhand.jpg?alt=media&token=c60b9eef-eadb-4cb7-984f-dea20beb9eae" className="img-fluid"/>
         <CardGroup className={styles.homePage}>
             <div className="container">
                   <div style={{ paddingTop: '30px'}}>
