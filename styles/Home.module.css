@@ -122,22 +122,63 @@
     width: 25%;
   }
 
-  .titlesize{
+
+
+.ourMission{
+  background-color: #D58989;
+  min-height: 27vh;
+}
+
+.homePage{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.homePageTxtGroup{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txtGroup{
+  background-color:transparent;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.missionTitle{
+  font-size: 4em;
+  font-family: "Brush Script MT";
+  color: white;
+}
+
+.missionText{
+  font-size: 1.5em;
+  font-family: "Tahoma";
+  color: white;
+}
+
+.getInvolved{
+  padding: 1em;
+  min-height: 5vh;
+  color: #D58989;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.startImg{
+  width: 100%;
+  align-items: center;
+  max-height: 70%;
+  border: none;
+}
+
+.titlesize{
     font-size: 6vw;
-    background-color: transparent;
-  }
-
-  .t1{
-    background-color: transparent;
-  }
-
-  .gap{
-    height: 2rem;
-    background-color: transparent;
-  }
-
-  .imgFps{
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
