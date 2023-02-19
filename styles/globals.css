@@ -76,6 +76,14 @@ body {
     background-color:#8F0606;
 }
 
+.Nav_img{
+    display: flex;
+    /*max-height: 1%;*/
+    /*max-width: 1%;*/
+    height: 10px;
+    width: 10px;
+}
+
 .combo{
     display: flex;
 

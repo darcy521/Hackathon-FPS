@@ -3,6 +3,8 @@ import styles from "./Shared.module.scss";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import Image from "react-bootstrap/Image";
+import {left} from "@popperjs/core";
 // import logo from '../../../public/assets/skyit-logo.png'
 
 const Navigation = () => {
@@ -14,7 +16,10 @@ const Navigation = () => {
     return ( 
         <>
             <Navbar className = {styles.navbar} variant="dark" >
-                <Container>
+                <div className={styles.nav_center}>
+                <Image src={"https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/FPS_new_logo.jpg?alt=media&token=ed4eb9b4-5ecf-48c1-a52b-a7a158a98558"} alt="logo" height={50} width={50} className={styles.Nav_logo}/>
+                </div>
+                <Container className={styles.container_align}>
                 <Navbar.Brand href="/">Female Period Support</Navbar.Brand>
                 <Nav className="me-auto" >
                     <Nav.Link href="/">Home</Nav.Link>
