@@ -16,7 +16,7 @@ const MAX_POSSIBLE_HEIGHT = 500;
     }, [maxHeight]);
   
     return (
-      <Card.Text style={styles.cardText} ref={ref}>
+      <Card.Text as="h6" style={styles.cardText} ref={ref}>
         <div
           style={{ maxHeight: expanded ? MAX_POSSIBLE_HEIGHT : maxHeight, overflowY: 'hidden' }}
         >
