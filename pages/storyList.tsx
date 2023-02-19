@@ -67,7 +67,7 @@ import React, { useRef, useEffect, useState } from "react";
 
             {/*</div>*/}
             <CardGroup className={styles.homePage}>
-                <div className=" col-5 " style={{ width: '50%', marginTop: '10px' , marginLeft: 'auto', marginRight: 'auto'}}>
+                <div className=" col-10 " style={{ width: '50%', marginTop: '10px' , marginLeft: 'auto', marginRight: 'auto'}}>
                     <div className="storyBackground">
                         <Card className="text-center">
                             <Card.Img className = "img-responsive center-block"
@@ -85,7 +85,7 @@ import React, { useRef, useEffect, useState } from "react";
                     </div>
 
                 </div>
-                <div className=" col-5 "  style={{ width: '50%', marginTop: '10px' , marginLeft: 'auto', marginRight: 'auto'}}>
+                <div className=" col-10 "  style={{ width: '50%', marginTop: '10px' , marginLeft: 'auto', marginRight: 'auto'}}>
                     <div className="storyBackground">
                         <Card className="text-center">
                             <Card.Img className = "img-responsive center-block"
