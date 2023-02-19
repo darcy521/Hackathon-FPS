@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
+import Image from 'react-bootstrap/image'
 import styles from '@/styles/Home.module.css'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
@@ -83,9 +83,13 @@ const Resource: NextPage = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="right-bd">
-                        <img src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Palms.jpg?alt=media&token=1acd1c54-77f5-4a6f-a942-42e433565b75" className="palms_img"/>
-                    </div>
+                    <CardGroup className={styles.right_bd}>
+                        <Image src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Palms.jpg?alt=media&token=1acd1c54-77f5-4a6f-a942-42e433565b75" 
+                        className={styles.palms_img}
+                        width={'100%'}
+                        height={'100%'}
+                        alt=''/>
+                    </CardGroup>
                 </div>
 
                 {error && <p className="error">{error}</p>}

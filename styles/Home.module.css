@@ -299,3 +299,14 @@
     background-size: cover;
     margin-top: 1%;
 }
+
+.right_bd{
+    height: 100%;
+    width: 100%;
+}
+
+.combo{
+    min-height: 100vh;
+    min-width: 100%;
+    margin: 0;
+}
