@@ -98,3 +98,19 @@
   font-family: "Tahoma";
   color: white;
 }
+
+.getInvolved{
+  padding: 1em;
+  min-height: 5vh;
+  color: #D58989;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.startImg{
+  width: 100%;
+  align-items: center;
+  max-height: 70%;
+  border: none;
+}
