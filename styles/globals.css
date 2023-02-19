@@ -134,6 +134,10 @@ body {
     height: 20vh;
     object-fit: cover;
   }
+.story_image {
+    height: '100px';
+    width: 100%;
+}
 /* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
