@@ -40,14 +40,22 @@
   }
   
   .donateDescriptionGroup{
-    width: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .donateDescription{
     border: none;
-    width: 100%;
+    max-width: 60%;
+    /* align-items: center; */
   }
   
+  .charityButton{
+    width: 50%;
+  }
+
   .titlesize{
     font-size: 6vw;
   }

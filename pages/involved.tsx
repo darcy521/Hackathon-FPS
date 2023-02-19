@@ -6,7 +6,6 @@ import Button from 'react-bootstrap/Button'
 
 const Involved: NextPage = () => {
 
-
     return (
         <>
             <Head>
@@ -21,6 +20,13 @@ const Involved: NextPage = () => {
                         <Card.Title className={styles.titlesize}>Get Involved</Card.Title>
                     </Card>
                     <div className={styles.mainBody}>
+                        <CardGroup className={styles.donateDescriptionGroup}>
+                            <Card className={styles.donateDescription}>
+                                <Card.Title>Donate to charities</Card.Title>
+                                <Card.Text>We have collected a set of the related organizations’ information. If you want to donate to organizations committed to improving the menstrual poverty of homeless women, please click the button to find them.</Card.Text>
+                                <Button href="/resource" className={styles.charityButton}>Charity List</Button>
+                            </Card>
+                        </CardGroup>
                     <CardGroup className={styles.stepGroup}>
                         <Card className={styles.step1}>
                             <Card.Img src={'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/FPS_LOGO.JPG?alt=media&token=446266ac-fc19-4481-8feb-5b62d531be5d'} 
@@ -52,13 +58,13 @@ const Involved: NextPage = () => {
                             <Card.Text>By following these steps, you can help homeless women access the feminine hygiene products they need to maintain their dignity and health. Together, we can make a difference in the lives of these women and ensure that they have the necessities they need to live with dignity and respect.</Card.Text>
                         </Card>
                     </CardGroup>
-                    <CardGroup className={styles.donateDescriptionGroup}>
+                    {/* <CardGroup className={styles.donateDescriptionGroup}>
                         <Card className={styles.donateDescription}>
                             <Card.Title>Donate to charities</Card.Title>
                             <Card.Text>We have collected a set of the related organizations’ information. If you want to donate to organizations committed to improving the menstrual poverty of homeless women, please click the button to find them.</Card.Text>
                             <Button>Charity List</Button>
                         </Card>
-                    </CardGroup>
+                    </CardGroup> */}
                     </div>
                     
                 </CardGroup>

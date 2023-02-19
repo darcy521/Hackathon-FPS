@@ -2,8 +2,66 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import { CardGroup } from 'react-bootstrap'
+import React from 'react'
+import axios from 'axios'
+import Image from 'react-bootstrap/Image';
 
-const Story: NextPage = () => {
+interface Data {
+    id: number;
+    name: String;
+    address: String;
+  }
+  
+  const Story: NextPage = () => {
+  
+    const [ifgetData, setIfGetData] = React.useState<boolean>(false); 
+    const defaultPosts:Data[] = [];
+    const [data, setData]: [Data[], (data: Data[]) => void] 
+      = React.useState(defaultPosts);
+    const [loading, setLoading]: [boolean, (loading: boolean) => void] 
+      = React.useState<boolean>(true);
+    const [error, setError]: [string, (error: string) => void] 
+      = React.useState("");
+   
+    React.useEffect(() => {
+      axios
+          .get('https://femaleperiodsupport.yulinzeng.workers.dev/storyList')
+          .then(res => {
+            // console.log(res.data.keys);
+            setData(res.data.keys);
+            // console.log(data);
+            setLoading(false);
+            setIfGetData(true);
+          })
+          .catch(ex => {
+            const error =
+            ex.response.status === 404
+              ? "Resource Not found"
+              : "An unexpected error has occurred";
+            setError(error);
+            setLoading(false);
+          });
+        }, []);
+  
+    React.useEffect(() => {
+      // console.log(data);
+      console.log(ifgetData);
+      data.forEach((item) => {
+        console.log(item);
+        axios.get('https://femaleperiodsupport.yulinzeng.workers.dev/storyList/'+ item.name)
+        .then(temp => {
+             console.log(temp.data);
+            //  setData(temp.data);
+            //  console.log(data);
+         })
+        .catch(ex => {
+           const error =
+           ex.response === 404
+             ? "Resource Not found"
+             : "An unexpected error has occurred";
+         });
+      })
+    }, [ifgetData]);
 
 
     return (
@@ -16,8 +74,19 @@ const Story: NextPage = () => {
             </Head>
             <div>
                 <CardGroup className={styles.homePage}>
+                <ul className={styles.posts}>
+                    {data && data.map((data) => (
+                    <li key={data.id} className={styles.li}>
+                    {data.name === 'Yulin' ? (<Image src={'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Yulin_Story.jpg?alt=media&token=9edb0080-28db-4fc0-b0dd-9c2b72e64d68'} 
+                        alt="selfie" width={'30%'} height={'30%'} />)
+                        :(<Image src={'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Yulin_Story.jpg?alt=media&token=9edb0080-28db-4fc0-b0dd-9c2b72e64d68'} 
+                        alt="selfie" width={'30%'} height={'30%'} />)}
+                    
+                    <h5>{data.name}</h5>
 
-                    <h1>It is Story page</h1>
+                    </li>
+                     ))}
+                    </ul>  
                 </CardGroup>
             </div>
         </>
