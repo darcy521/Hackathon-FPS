@@ -31,7 +31,7 @@ const Home: NextPage = () => {
                 </div>
             </Card>
             <CardGroup className={styles.homePage}>
-                <div>
+                {/* <div>
                     <CardGroup className={styles.startImg}>
                         <Card>
                             <Image
@@ -44,7 +44,7 @@ const Home: NextPage = () => {
                                 height={'100%'}/>
                         </Card>
                     </CardGroup>
-                </div>
+                </div> */}
                 <div>
                     <CardGroup className={styles.ourMission}>
                         <Card className={styles.txtGroup}>
@@ -106,14 +106,14 @@ const Home: NextPage = () => {
                 {/*</div>*/}
                 <div>
                     <CardGroup className={styles.startImg}>
-                        <Card>
+                        <Card className={styles.startCardImg}>
                             <Image
                                 src={
                                     'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/CartoonBang.jpg?alt=media&token=d6f09342-ba1a-4e04-969f-fd414c34202f'
                                 }
                                 alt="starter"
                                 width={'100%'}
-                                height={170}/>
+                                height={'100%'}/>
                         </Card>
                     </CardGroup>
                 </div>

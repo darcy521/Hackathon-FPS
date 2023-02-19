@@ -1,28 +1,30 @@
 .picasso {
     min-height: 100vh;
     color: whitesmoke;
-    background: transparent;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/two_hands.jpg?alt=media&token=4c0a113c-6b90-455c-a130-4af4dad6bc91');
+    background-position: center;
+    background-size: cover;
     /* border-color: transparent; */
     border: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation-name: picasso;
+    /* animation-name: picasso;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-    animation-timing-function: linear;
+    animation-timing-function: linear; */
     /* // transition: width height 2s; */
   }
   
   @keyframes picasso {
-    0% {visibility: hidden; min-height: 100vh;}
-    25% {visibility: hidden; opacity: 0; min-height: 105vh;}
-    50% {visibility: visible; opacity: 1; min-height: 105vh;}
-    60% {visibility: visible; opacity: 1; min-height: 105vh;}
-    75% {visibility: visible; opacity: 1; min-height: 60vh;}
-    100% {visibility: visible; opacity: 1; min-height: 10vh; 
-        position: absolute; z-index: 1; background: transparent; top: 30%; padding-top: 5%;}
+    0% {visibility: hidden;}
+    25% {visibility: hidden; opacity: 0;}
+    50% {visibility: visible; opacity: 0.5;}
+    60% {visibility: visible; opacity: 0.7;}
+    75% {visibility: visible; opacity: 0.9;}
+    100% {visibility: visible; opacity: 1;}
+        
   }
 
   .picassoImg, .picassoBody{
@@ -33,8 +35,13 @@
     height: 100%;
     display: flex;
     flex-direction: column;
+    backdrop-filter: blur(5px);
     justify-content: center;
     align-items: center;
+    animation-name: picasso;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
   }
 
   .picassoBody{
@@ -201,7 +208,7 @@
 
 .ourMission{
   background-color: #D58989;
-  min-height: 27vh;
+  min-height: 50vh;
 }
 
 .txtGroup{
@@ -236,9 +243,12 @@
 .startImg{
   width: 100%;
   align-items: center;
-  max-height: 70%;
+  min-height: 100%;
   border: none;
-  filter: blur(3px);
+}
+
+.startCardImg{
+    height: auto;
 }
 
 .titlesize{
@@ -247,7 +257,7 @@
 
 .ourGoals{
   background-color: white;
-  min-height: 27vh;
+  min-height: 40vh;
 }
 
 
