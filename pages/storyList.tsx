@@ -95,6 +95,13 @@ import { useRef, useEffect, useState } from "react";
                       </div>
                       </Card.Body>
                   </Card>
+                <Card style={{ width: '50%', marginTop: '10px' , marginLeft: 'auto', marginRight: 'auto'}}>
+                    <iframe
+                        src="https://docs.google.com/forms/d/e/1FAIpQLScf5mBun0b0YIQ6owQyfh6D2FbjuAdmhv7KQhVS7qGbZVwvGw/viewform?embedded=true"
+                        width="640" height="1175" >Loading…
+                    </iframe>
+                </Card>
+
             </div>
         </>
 )

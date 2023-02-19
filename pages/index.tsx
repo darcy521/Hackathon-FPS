@@ -101,6 +101,17 @@ const Home: NextPage = () => {
                         </Card>
                     </CardGroup>
                 </div>
+                <div>
+                    <CardGroup className={styles.ourGoals}>
+                        <Card className={styles.txtGroup}>
+                            <Card.Title className={styles.goalTitle}>Our Goal</Card.Title>
+                            <Card.Text className={styles.goalText}>Our goal is to raise awareness about the issues surrounding menstrual hygiene for homeless women
+                            </Card.Text>
+                            <Card.Text className={styles.goalText}>and provide a platform for people to donate and support the cause.
+                            </Card.Text>
+                        </Card>
+                    </CardGroup>
+                </div>
             </CardGroup>
 
     </>

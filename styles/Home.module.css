@@ -124,10 +124,6 @@
 
 
 
-.ourMission{
-  background-color: #D58989;
-  min-height: 27vh;
-}
 
 .homePage{
   min-height: 100vh;
@@ -136,11 +132,19 @@
   flex-direction: column;
 }
 
+
+
+
 .homePageTxtGroup{
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.ourMission{
+  background-color: #D58989;
+  min-height: 27vh;
 }
 
 .txtGroup{
@@ -182,3 +186,21 @@
 .titlesize{
     font-size: 6vw;
   }
+
+.ourGoals{
+  background-color: white;
+  min-height: 27vh;
+}
+
+
+.goalTitle{
+  font-size: 4em;
+  font-family: "Brush Script MT";
+  color: grey;
+}
+
+.goalText{
+  font-size: 1.5em;
+  font-family: "Tahoma";
+  color: grey;
+}
