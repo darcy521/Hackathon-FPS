@@ -291,3 +291,11 @@
   font-size: 7em;
   font-family: "Brush Script MT";
 }
+
+.storyTitle{
+    height: 15vh;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/StoryTitle.jpg?alt=media&token=108ca271-b448-4dfd-acac-f7f21a200d13');
+    background-position: center;
+    background-size: cover;
+    margin-top: 1%;
+}
