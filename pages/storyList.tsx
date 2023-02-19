@@ -1,58 +1,37 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
-import { CardGroup } from 'react-bootstrap'
-import React from 'react'
 import axios from 'axios'
 import Image from 'react-bootstrap/Image';
+import { Card, CardGroup} from 'react-bootstrap'
+import Button from 'react-bootstrap/Button'
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import { useRef, useEffect, useState } from "react";
 
-interface Data {
-    id: number;
-    name: String;
-    address: String;
-  }
+
+
+  const Story: NextPage = (name) => {
   
-  const Story: NextPage = () => {
-  
-    const [ifgetData, setIfGetData] = React.useState<boolean>(false); 
-    const defaultPosts:Data[] = [];
-    const [data, setData]: [Data[], (data: Data[]) => void] 
-      = React.useState(defaultPosts);
+    const [ifgetData, setIfGetData] = useState<boolean>(false);
+
+    const [data, setData] = useState("");
+    const [data2, setData2] = useState("");
+    
     const [loading, setLoading]: [boolean, (loading: boolean) => void] 
-      = React.useState<boolean>(true);
+      = useState<boolean>(true);
     const [error, setError]: [string, (error: string) => void] 
-      = React.useState("");
-   
-    React.useEffect(() => {
-      axios
-          .get('https://femaleperiodsupport.yulinzeng.workers.dev/storyList')
-          .then(res => {
-            // console.log(res.data.keys);
-            setData(res.data.keys);
-            // console.log(data);
-            setLoading(false);
-            setIfGetData(true);
-          })
-          .catch(ex => {
-            const error =
-            ex.response.status === 404
-              ? "Resource Not found"
-              : "An unexpected error has occurred";
-            setError(error);
-            setLoading(false);
-          });
-        }, []);
-  
-    React.useEffect(() => {
+      = useState("");
+
+    
+    useEffect(() => {
       // console.log(data);
       console.log(ifgetData);
-      data.forEach((item) => {
-        console.log(item);
-        axios.get('https://femaleperiodsupport.yulinzeng.workers.dev/storyList/'+ item.name)
-        .then(temp => {
-             console.log(temp.data);
-            //  setData(temp.data);
-            //  console.log(data);
+      axios.get('https://femaleperiodsupport.yulinzeng.workers.dev/storyList/Daniel')
+          .then(temp => {
+             //console.log(temp.data);
+             setData(temp.data.content);
+             console.log(data);
          })
         .catch(ex => {
            const error =
@@ -60,7 +39,18 @@ interface Data {
              ? "Resource Not found"
              : "An unexpected error has occurred";
          });
-      })
+
+      axios.get('https://femaleperiodsupport.yulinzeng.workers.dev/storyList/Yulin')
+        .then(temp => {
+             setData2(temp.data.content);
+             console.log(data2);
+         })
+        .catch(ex => {
+           const error =
+           ex.response === 404
+             ? "Resource Not found"
+             : "An unexpected error has occurred";
+         });
     }, [ifgetData]);
 
 
@@ -73,21 +63,38 @@ interface Data {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <div>
-                <CardGroup className={styles.homePage}>
-                <ul className={styles.posts}>
-                    {data && data.map((data) => (
-                    <li key={data.id} className={styles.li}>
-                    {data.name === 'Yulin' ? (<Image src={'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Yulin_Story.jpg?alt=media&token=9edb0080-28db-4fc0-b0dd-9c2b72e64d68'} 
-                        alt="selfie" width={'30%'} height={'30%'} />)
-                        :(<Image src={'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Yulin_Story.jpg?alt=media&token=9edb0080-28db-4fc0-b0dd-9c2b72e64d68'} 
-                        alt="selfie" width={'30%'} height={'30%'} />)}
-                    
-                    <h5>{data.name}</h5>
+              <img style = {{height : '230px', width: '100%'}} src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/handinhand.jpg?alt=media&token=c60b9eef-eadb-4cb7-984f-dea20beb9eae" className="img-fluid"/>
+                    <Card style={{ width: '50%', marginTop: '10px' , marginLeft: 'auto', marginRight: 'auto'}}>
+                      <Card.Img style = {{height: '300px'}}
+                                className = "story_image"
+                                variant="top" 
+                                src = "https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Yulin_Story.jpg?alt=media&token=9edb0080-28db-4fc0-b0dd-9c2b72e64d68"/>
+                      <Card.Body>
+                      <Card.Title> Yulin </Card.Title>
+                      <Card.Text style = {{ textAlign: 'justify' }}>
+                        {data}
+                      </Card.Text>
+                      <div className="col text-center">
+                        <Button href="" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px'}} >Like</Button>
+                      </div>
+                      </Card.Body>
+                  </Card>
 
-                    </li>
-                     ))}
-                    </ul>  
-                </CardGroup>
+                  <Card style={{ width: '50%', marginTop: '10px' , marginLeft: 'auto', marginRight: 'auto'}}>
+                      <Card.Img style = {{height: '300px'}}
+                                className = "story_image"
+                                variant="top" 
+                                src = "https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Yulin_Story.jpg?alt=media&token=9edb0080-28db-4fc0-b0dd-9c2b72e64d68"/>
+                      <Card.Body>
+                      <Card.Title> Daniel </Card.Title>
+                      <Card.Text style = {{ textAlign: 'justify' }}>
+                      {data2}
+                      </Card.Text>
+                      <div className="col text-center">
+                        <Button href="" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px'}} >Like</Button>
+                      </div>
+                      </Card.Body>
+                  </Card>
             </div>
         </>
 )

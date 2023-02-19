@@ -1,5 +1,6 @@
 .involvedContainer{
     min-height: 100vh;
+    background: #8F0606;
   }
   
   .involvePage{
@@ -14,29 +15,93 @@
     align-items: center;
     border: none;
     margin-top: 10%;
+    background: transparent;
     
   }
   
   .mainBody{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
   }
   
+  .frontGroup{
+    width: max-content;
+  }
+
+  .charityButtonFrame{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px;
+  }
+
+.gifBg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/homepage_start.GIF?alt=media&token=7f369495-a24a-4691-aeb3-3aaebf1f1283');
+}
+
+  .imgGroup{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    min-height: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
   .stepGroup{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
+    height: fit-content;
     border: none;
   }
   
   .step1, .step2, .step3, .step4{
     border: none;
     text-align: justify;
-    padding: 1%;
+    padding: 2%;
+    /* padding: 1%; */
+    width: 100%;
+    height: fit-content;
   }
-  
+
+  .step1{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .step2{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .step3{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .step4{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
   .stepImg{
     width: 30%;
+  }
+
+  .cardImg{
+    width: 30%;
+    margin: 2%;
+  }
+
+  .textbox{
+    width: 40%;
   }
   
   .donateDescriptionGroup{
@@ -44,21 +109,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
   }
   
   .donateDescription{
     border: none;
     max-width: 60%;
-    /* align-items: center; */
+    background: transparent;
   }
   
   .charityButton{
-    width: 50%;
+    width: 25%;
   }
 
-  .titlesize{
-    font-size: 6vw;
-  }
+
 
 .ourMission{
   background-color: #D58989;
@@ -98,3 +162,23 @@
   font-family: "Tahoma";
   color: white;
 }
+
+.getInvolved{
+  padding: 1em;
+  min-height: 5vh;
+  color: #D58989;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.startImg{
+  width: 100%;
+  align-items: center;
+  max-height: 70%;
+  border: none;
+}
+
+.titlesize{
+    font-size: 6vw;
+  }

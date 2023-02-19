@@ -60,7 +60,7 @@ const PlacesAutocomplete = ({
             placeholder="Santa Clara University"
           />
           <Image 
-              src={'/assets/search-icon.png'} 
+              src={'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/search-icon.png?alt=media&token=f1d3059f-3c05-4e5e-b781-427ea48a5acc'} 
               alt="search" 
               width={25}
               height={25}/>
