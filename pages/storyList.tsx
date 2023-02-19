@@ -3,11 +3,11 @@ import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import axios from 'axios'
 import Image from 'react-bootstrap/Image';
-import { Card, CardGroup} from 'react-bootstrap'
+import {Card, CardGroup, Container} from 'react-bootstrap'
 import Button from 'react-bootstrap/Button'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { useRef, useEffect, useState } from "react";
+import React, { useRef, useEffect, useState } from "react";
 
 
 
@@ -62,47 +62,90 @@ import { useRef, useEffect, useState } from "react";
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div>
-              <img style = {{height : '230px', width: '100%'}} src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/handinhand.jpg?alt=media&token=c60b9eef-eadb-4cb7-984f-dea20beb9eae" className="img-fluid"/>
-                    <Card style={{ width: '50%', marginTop: '10px' , marginLeft: 'auto', marginRight: 'auto'}}>
-                      <Card.Img style = {{height: '300px'}}
-                                className = "story_image"
-                                variant="top" 
-                                src = "https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Yulin_Story.jpg?alt=media&token=9edb0080-28db-4fc0-b0dd-9c2b72e64d68"/>
-                      <Card.Body>
-                      <Card.Title> Yulin </Card.Title>
-                      <Card.Text style = {{ textAlign: 'justify' }}>
-                        {data}
-                      </Card.Text>
-                      <div className="col text-center">
-                        <Button href="" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px'}} >Like</Button>
-                      </div>
-                      </Card.Body>
-                  </Card>
+            {/*<div>*/}
+              {/*<img style = {{height : '230px', width: '100%'}} src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/handinhand.jpg?alt=media&token=c60b9eef-eadb-4cb7-984f-dea20beb9eae" className="img-fluid"/>*/}
+              {/*      <Card style={{ width: '50%', marginTop: '10px' , marginLeft: 'auto', marginRight: 'auto'}}>*/}
+              {/*        <Card.Img style = {{height: '500px'}}*/}
+              {/*                  className = "story_image"*/}
+              {/*                  variant="top" */}
+              {/*                  src = "https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Yulin_Story.jpg?alt=media&token=9edb0080-28db-4fc0-b0dd-9c2b72e64d68"/>*/}
+              {/*        <Card.Body>*/}
+              {/*        <Card.Title> Yulin </Card.Title>*/}
+              {/*        <Card.Text style = {{ textAlign: 'justify' }}>*/}
+              {/*          {data}*/}
+              {/*        </Card.Text>*/}
+              {/*        <div className="col text-center">*/}
+              {/*          <Button href="" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px'}} >Like</Button>*/}
+              {/*        </div>*/}
+              {/*        </Card.Body>*/}
+              {/*    </Card>*/}
 
-                  <Card style={{ width: '50%', marginTop: '10px' , marginLeft: 'auto', marginRight: 'auto'}}>
-                      <Card.Img style = {{height: '300px'}}
-                                className = "story_image"
-                                variant="top" 
-                                src = "https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Yulin_Story.jpg?alt=media&token=9edb0080-28db-4fc0-b0dd-9c2b72e64d68"/>
-                      <Card.Body>
-                      <Card.Title> Daniel </Card.Title>
-                      <Card.Text style = {{ textAlign: 'justify' }}>
-                      {data2}
-                      </Card.Text>
-                      <div className="col text-center">
-                        <Button href="" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px'}} >Like</Button>
-                      </div>
-                      </Card.Body>
-                  </Card>
-                <Card style={{ width: '50%', marginTop: '10px' , marginLeft: 'auto', marginRight: 'auto'}}>
+                  {/*<Card style={{ width: '50%', marginTop: '10px' , marginLeft: 'auto', marginRight: 'auto'}}>*/}
+                  {/*    <Card.Img style = {{height: '300px'}}*/}
+                  {/*              className = "story_image"*/}
+                  {/*              variant="top" */}
+                  {/*              src = "https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Yulin_Story.jpg?alt=media&token=9edb0080-28db-4fc0-b0dd-9c2b72e64d68"/>*/}
+                  {/*    <Card.Body>*/}
+                  {/*    <Card.Title> Daniel </Card.Title>*/}
+                  {/*    <Card.Text style = {{ textAlign: 'justify' }}>*/}
+                  {/*    {data2}*/}
+                  {/*    </Card.Text>*/}
+                  {/*    <div className="col text-center">*/}
+                  {/*      <Button href="" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px'}} >Like</Button>*/}
+                  {/*    </div>*/}
+                  {/*    </Card.Body>*/}
+                  {/*</Card>*/}
+
+
+
+
+
+            {/*</div>*/}
+            <CardGroup className={styles.homePage}>
+                <div className=" col-5 ">
+                    <div className="storyBackground">
+                        <Card className="text-center">
+                            <Card.Img className = "img-responsive center-block"
+                                      variant="top"
+                                      src = "https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Yulin_Story.jpg?alt=media&token=9edb0080-28db-4fc0-b0dd-9c2b72e64d68"/>
+                            <Card.Header>Author: Yulin</Card.Header>
+                            <Card.Body>
+                                <Card.Title>Even little helps!</Card.Title>
+                               <div>
+                                   {data2}
+                               </div>
+                            </Card.Body>
+                            <Card.Footer className="text-muted">1 days ago</Card.Footer>
+                        </Card>
+                    </div>
+
+                </div>
+                <div className=" col-5 ">
+                    <div className="storyBackground">
+                        <Card className="text-center">
+                            <Card.Img className = "img-responsive center-block"
+                                      variant="top"
+                                      src = "https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Palms.jpg?alt=media&token=1acd1c54-77f5-4a6f-a942-42e433565b75"/>
+                            <Card.Header>Author: Daniel</Card.Header>
+                            <Card.Body>
+                                <Card.Title>Why male should also support FPS?</Card.Title>
+                                <div>
+                                    {data}
+                                </div>
+                            </Card.Body>
+                            <Card.Footer className="text-muted">1 days ago</Card.Footer>
+                        </Card>
+                    </div>
+
+                </div>
+                <div>
                     <iframe
                         src="https://docs.google.com/forms/d/e/1FAIpQLScf5mBun0b0YIQ6owQyfh6D2FbjuAdmhv7KQhVS7qGbZVwvGw/viewform?embedded=true"
-                        width="640" height="1175" >Loading…
+                        width="900" height="1460"
+                        className="center-block">Loading…
                     </iframe>
-                </Card>
-
-            </div>
+                </div>
+            </CardGroup>
         </>
 )
 }
