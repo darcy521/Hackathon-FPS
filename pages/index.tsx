@@ -18,19 +18,16 @@ const Home: NextPage = () => {
       </Head>
             <CardGroup className={styles.homePage}>
                 <div>
-
-
-                <CardGroup className={styles.startImg}>
-                    <Card>
+                    <CardGroup className={styles.startImg}>
+                        <Card>
                             <Image
-                            src={
-                                'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Complete.jpg?alt=media&token=b3faa65e-7fe0-441d-bc1d-2a9db783a312'
-                            }
-                            alt="starter"
-                            width={'100%'}
-                            height={900}/>
-                    </Card>
-                </CardGroup>
+                                src={
+                                    'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/two_hands.jpg?alt=media&token=71be8f67-6d51-41d4-8f74-e5fc08aeabc6'
+                                }
+                                width={'100%'}
+                                height={970}/>
+                        </Card>
+                    </CardGroup>
                 </div>
                 <div>
                     <CardGroup className={styles.ourMission}>
@@ -46,7 +43,7 @@ const Home: NextPage = () => {
                     </CardGroup>
                     <div>
 
-                        <div style={{ display: "flex" }} >
+                        <div style={{ display: "flex" , padding: "2em"}} >
 
                             <div className ="col-7 align-content-center">
                                 <Card style={{ width: '35rem' }}>
@@ -91,7 +88,19 @@ const Home: NextPage = () => {
 
                     </div>
                 </div>
-
+                <div>
+                    <CardGroup className={styles.startImg}>
+                        <Card>
+                            <Image
+                                src={
+                                    'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/handinhand.jpg?alt=media&token=c60b9eef-eadb-4cb7-984f-dea20beb9eae'
+                                }
+                                alt="starter"
+                                width={'100%'}
+                                height={300}/>
+                        </Card>
+                    </CardGroup>
+                </div>
             </CardGroup>
 
     </>
