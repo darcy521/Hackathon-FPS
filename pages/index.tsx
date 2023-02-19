@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '@/styles/Home.module.css'
 import {Button, Card, CardGroup, Col, Container, Row} from 'react-bootstrap'
-import Logo from '../public/assets/full_width.png'
 
 
 const Home: NextPage = () => {
@@ -19,10 +18,11 @@ const Home: NextPage = () => {
       <Card className={styles.picasso}>
                     <Image 
                     alt="image"
-                    src={ Logo }
-                    width={300}
-                    height={160}
+                    src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/bobsb.jpg?alt=media&token=dcd124fd-c0aa-4e6d-9939-4e3ff35beb2e"
+                    width={1000}
+                    height={600}
                     />
+
         </Card>
 
     </>
