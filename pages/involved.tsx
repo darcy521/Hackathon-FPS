@@ -33,13 +33,13 @@ const Involved: NextPage = () => {
                     </div>
                         <CardGroup className={styles.imgGroup}>
                             <Image src={'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Ziploc_Slogan.jpg?alt=media&token=4c18251c-eec6-4112-a7a4-f882789a1c95'} 
-                            alt='' width={'25%'} height={300}/>
+                            alt='' width={'25%'} height={450}/>
                             <Image src={'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Restroom.jpg?alt=media&token=9c1b7e11-4760-464a-b2be-8c1b06c11899'} 
-                            alt='' width={'25%'} height={300}/>
+                            alt='' width={'25%'} height={450}/>
                             <Image src={'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/putIntoRestroom.jpg?alt=media&token=a4305409-e235-4025-8910-6b9a35445601'} 
-                            alt='' width={'25%'} height={300}/>
+                            alt='' width={'25%'} height={450}/>
                             <Image src={'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Yulin_Story.jpg?alt=media&token=9edb0080-28db-4fc0-b0dd-9c2b72e64d68'} 
-                            alt='' width={'25%'} height={300}/>
+                            alt='' width={'25%'} height={450}/>
                         </CardGroup>
                     <Container className={styles.involvedContainer}>
                     <CardGroup className={styles.stepGroup}>
@@ -93,8 +93,8 @@ const Involved: NextPage = () => {
                     
                 </CardGroup>
                 <CardGroup className={styles.imgFps}>
-                            <Image src={'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/HomePage.jpg?alt=media&token=a257f591-9ab3-4365-9b59-e5f4a89ffa08'} 
-                            alt='' width={'90%'} height={400}/>
+                            <Image src={'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/cloudbang.jpg?alt=media&token=1631cb6c-d1e6-423e-93a7-261b089d1d09'} 
+                            alt='' width={'100%'} height={'40%'}/>
                             {/* <Image src={'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Restroom.jpg?alt=media&token=9c1b7e11-4760-464a-b2be-8c1b06c11899'} 
                             alt='' width={'25%'} height={300}/>
                             <Image src={'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/putIntoRestroom.jpg?alt=media&token=a4305409-e235-4025-8910-6b9a35445601'} 

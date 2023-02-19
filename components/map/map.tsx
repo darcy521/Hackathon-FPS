@@ -87,13 +87,13 @@ const Map = () => {
           {/* {markers.map(({ id, name, position }) => ( */}
           <MarkerF position={mapCenter} onLoad={() => console.log('Marker Loaded')} >
           {/* {activeMarker === id ? ( */}
-            <InfoWindow 
+            {/* <InfoWindow 
               position={mapCenter}
               
-            // onCloseClick={() => setActiveMarker(null)}
+            onCloseClick={() => setActiveMarker(null)}
             >
               <div>123</div>
-            </InfoWindow>
+            </InfoWindow> */}
           {/* ) : null} */}
           </MarkerF>
            {/* ))} */}

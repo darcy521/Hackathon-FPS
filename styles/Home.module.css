@@ -1,6 +1,61 @@
+.picasso {
+    min-height: 100vh;
+    color: whitesmoke;
+    background: transparent;
+    /* border-color: transparent; */
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation-name: picasso;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    /* // transition: width height 2s; */
+  }
+  
+  @keyframes picasso {
+    0% {visibility: hidden; min-height: 100vh;}
+    25% {visibility: hidden; opacity: 0; min-height: 105vh;}
+    50% {visibility: visible; opacity: 1; min-height: 105vh;}
+    60% {visibility: visible; opacity: 1; min-height: 105vh;}
+    75% {visibility: visible; opacity: 1; min-height: 60vh;}
+    100% {visibility: visible; opacity: 1; min-height: 10vh; 
+        position: absolute; z-index: 1; background: transparent; top: 30%; padding-top: 5%;}
+  }
+
+  .picassoImg, .picassoBody{
+    /* background: #8F0606; */
+  }
+
+  .logoBox{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .picassoBody{
+    height: fit-content;
+    color: white;
+  }
+  
+  .picasso_description{
+    font-family: Copperplate !important;
+    color:rgb(50, 19, 18);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 5vw;
+    /* background-color: #8F0606; */
+    height: fit-content;
+  }
+
+
 .involvedContainer{
     min-height: 100vh;
-    background: #8F0606;
+    /* background: #8F0606; */
   }
   
   .involvePage{
@@ -52,6 +107,7 @@
     min-height: 100%;
     padding-top: 2%;
     padding-bottom: 2%;
+    margin-top: 1%;
   }
 
   .stepGroup{
@@ -110,6 +166,7 @@
     justify-content: center;
     align-items: center;
     background-color: transparent;
+    margin-top: 2%;
   }
   
   .donateDescription{
@@ -181,6 +238,7 @@
   align-items: center;
   max-height: 70%;
   border: none;
+  filter: blur(3px);
 }
 
 .titlesize{
@@ -203,6 +261,12 @@
   font-size: 1.5em;
   font-family: "Tahoma";
   color: grey;
+}
+
+.imgFps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .storyBackground{
