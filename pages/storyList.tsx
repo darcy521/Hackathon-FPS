@@ -102,7 +102,7 @@ import React, { useRef, useEffect, useState } from "react";
 
             {/*</div>*/}
             <CardGroup className={styles.homePage}>
-                <div className=" col-5 ">
+                <div className=" col-5 " style={{ width: '50%', marginTop: '10px' , marginLeft: 'auto', marginRight: 'auto'}}>
                     <div className="storyBackground">
                         <Card className="text-center">
                             <Card.Img className = "img-responsive center-block"
@@ -120,7 +120,7 @@ import React, { useRef, useEffect, useState } from "react";
                     </div>
 
                 </div>
-                <div className=" col-5 ">
+                <div className=" col-5 "  style={{ width: '50%', marginTop: '10px' , marginLeft: 'auto', marginRight: 'auto'}}>
                     <div className="storyBackground">
                         <Card className="text-center">
                             <Card.Img className = "img-responsive center-block"
@@ -138,7 +138,7 @@ import React, { useRef, useEffect, useState } from "react";
                     </div>
 
                 </div>
-                <div>
+                <div  style={{ width: '61%', marginTop: '10px' , marginLeft: 'auto', marginRight: 'auto'}}>
                     <iframe
                         src="https://docs.google.com/forms/d/e/1FAIpQLScf5mBun0b0YIQ6owQyfh6D2FbjuAdmhv7KQhVS7qGbZVwvGw/viewform?embedded=true"
                         width="900" height="1460"
