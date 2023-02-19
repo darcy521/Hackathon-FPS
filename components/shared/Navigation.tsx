@@ -23,14 +23,10 @@ const Navigation = () => {
                 <Navbar.Brand href="/">Female Period Support</Navbar.Brand>
                 <Nav className="me-auto" >
                     <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="/about">About Us</Nav.Link>
                     <Nav.Link href="/involved">Get Involved</Nav.Link>
-                    <Nav.Link href="/resource">Resource</Nav.Link>
                     <Nav.Link href="/storyList">Story</Nav.Link>
                     <Nav.Link href="/donate">Donate</Nav.Link>
-                    {/*<Nav.Link href="/charityList">Charity List</Nav.Link>*/}
-
-
+                    <Nav.Link href="/resource">Resource</Nav.Link>
                 </Nav>
                 </Container>
                 </Navbar>

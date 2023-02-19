@@ -37,57 +37,57 @@ const Home: NextPage = () => {
                         </Card>
                     </CardGroup>
                 </div>
-                <div className="container">
-                    <CardGroup className={styles.getInvolved}>
-                        <h1>Get Involved</h1>
-                    </CardGroup>
-                    <div>
+                {/*<div className="container">*/}
+                {/*    <CardGroup className={styles.getInvolved}>*/}
+                {/*        <h1>Get Involved</h1>*/}
+                {/*    </CardGroup>*/}
+                {/*    <div>*/}
 
-                        <div style={{ display: "flex" , padding: "2em"}} >
+                {/*        <div style={{ display: "flex" , padding: "2em"}} >*/}
 
-                            <div className ="col-7 align-content-center">
-                                <Card style={{ width: '35rem' }}>
-                                    <Card.Img className = "card_image"
-                                              variant="top"
-                                              src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/HelpingWomenPeriod_Logo.png?alt=media&token=65ae556b-eeee-45fa-9b28-98c0a6c6d764"/>
-                                    <Card.Body>
-                                        <Card.Title>Helping Women Period</Card.Title>
-                                        <ExpendableText maxHeight={70}>
-                                            HWP prioritizes the needs of people experiencing relationship violence,
-                                            who have been denied access to resources due to systemic racism and institutional biases,
-                                            we direct support to communities of color and organizations that serve BIPOC communities.
-                                            We listen to our BIPOC partners and we adjust our support based on the cultural and traditional preferences of the people we serve.
-                                        </ExpendableText>
-                                        <div className="col text-center">
-                                            <Button href="https://www.helpingwomenperiod.org/make-a-donation/" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px'}} >Donate</Button>
-                                        </div>
-                                    </Card.Body>
-                                </Card>
-                            </div>
-                            <div className ="col-7 align-content-center">
-                                <Card style={{ width: '35rem' }}>
-                                    <Card.Img className = "card_image"
-                                              variant="top"
-                                              src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/PeriodProject_Logo.png?alt=media&token=193717d8-900a-4d92-8057-321a7fc99bfb" />
-                                    <Card.Body>
-                                        <Card.Title>The Period Project</Card.Title>
-                                        <ExpendableText maxHeight={70}>
-                                            At The Period Project, we're improving the lives of menstruators one period at a time.
-                                            By increasing local, national, and global awareness of period poverty and delivering menstrual hygiene products to those in need,
-                                            we're replacing poverty with community and shame with dignity.
-                                            We are part of a worldwide movement of similarly focused nonprofit organizations accelerating the momentum
-                                            by incubating ideas and exchanging mutual aid for the common and greater good.
-                                        </ExpendableText>
-                                        <div className="col text-center">
-                                            <Button href="https://periodproject.org/pages/donate" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px'}}>Donate</Button>
-                                        </div>
-                                    </Card.Body>
-                                </Card>
-                            </div>
-                        </div>
+                {/*            <div className ="col-7 align-content-center">*/}
+                {/*                <Card style={{ width: '35rem' }}>*/}
+                {/*                    <Card.Img className = "card_image"*/}
+                {/*                              variant="top"*/}
+                {/*                              src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/HelpingWomenPeriod_Logo.png?alt=media&token=65ae556b-eeee-45fa-9b28-98c0a6c6d764"/>*/}
+                {/*                    <Card.Body>*/}
+                {/*                        <Card.Title>Helping Women Period</Card.Title>*/}
+                {/*                        <ExpendableText maxHeight={70}>*/}
+                {/*                            HWP prioritizes the needs of people experiencing relationship violence,*/}
+                {/*                            who have been denied access to resources due to systemic racism and institutional biases,*/}
+                {/*                            we direct support to communities of color and organizations that serve BIPOC communities.*/}
+                {/*                            We listen to our BIPOC partners and we adjust our support based on the cultural and traditional preferences of the people we serve.*/}
+                {/*                        </ExpendableText>*/}
+                {/*                        <div className="col text-center">*/}
+                {/*                            <Button href="https://www.helpingwomenperiod.org/make-a-donation/" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px'}} >Donate</Button>*/}
+                {/*                        </div>*/}
+                {/*                    </Card.Body>*/}
+                {/*                </Card>*/}
+                {/*            </div>*/}
+                {/*            <div className ="col-7 align-content-center">*/}
+                {/*                <Card style={{ width: '35rem' }}>*/}
+                {/*                    <Card.Img className = "card_image"*/}
+                {/*                              variant="top"*/}
+                {/*                              src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/PeriodProject_Logo.png?alt=media&token=193717d8-900a-4d92-8057-321a7fc99bfb" />*/}
+                {/*                    <Card.Body>*/}
+                {/*                        <Card.Title>The Period Project</Card.Title>*/}
+                {/*                        <ExpendableText maxHeight={70}>*/}
+                {/*                            At The Period Project, we're improving the lives of menstruators one period at a time.*/}
+                {/*                            By increasing local, national, and global awareness of period poverty and delivering menstrual hygiene products to those in need,*/}
+                {/*                            we're replacing poverty with community and shame with dignity.*/}
+                {/*                            We are part of a worldwide movement of similarly focused nonprofit organizations accelerating the momentum*/}
+                {/*                            by incubating ideas and exchanging mutual aid for the common and greater good.*/}
+                {/*                        </ExpendableText>*/}
+                {/*                        <div className="col text-center">*/}
+                {/*                            <Button href="https://periodproject.org/pages/donate" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px'}}>Donate</Button>*/}
+                {/*                        </div>*/}
+                {/*                    </Card.Body>*/}
+                {/*                </Card>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
 
-                    </div>
-                </div>
+                {/*    </div>*/}
+                {/*</div>*/}
                 <div>
                     <CardGroup className={styles.startImg}>
                         <Card>
@@ -98,6 +98,17 @@ const Home: NextPage = () => {
                                 alt="starter"
                                 width={'100%'}
                                 height={300}/>
+                        </Card>
+                    </CardGroup>
+                </div>
+                <div>
+                    <CardGroup className={styles.ourGoals}>
+                        <Card className={styles.txtGroup}>
+                            <Card.Title className={styles.goalTitle}>Our Goal</Card.Title>
+                            <Card.Text className={styles.goalText}>Our goal is to raise awareness about the issues surrounding menstrual hygiene for homeless women
+                            </Card.Text>
+                            <Card.Text className={styles.goalText}>and provide a platform for people to donate and support the cause.
+                            </Card.Text>
                         </Card>
                     </CardGroup>
                 </div>
