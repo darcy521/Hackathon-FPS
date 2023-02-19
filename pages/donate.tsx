@@ -57,9 +57,9 @@ const Donate: NextPage = () => {
                               <Card.Body>
                               <Card.Title>The Period Project</Card.Title>
                               <ExpendableText maxHeight={70}>
-                                At The Period Project, we're improving the lives of menstruators one period at a time. 
+                                At The Period Project, we&apos;re improving the lives of menstruators one period at a time. 
                                 By increasing local, national, and global awareness of period poverty and delivering menstrual hygiene products to those in need, 
-                                we're replacing poverty with community and shame with dignity.
+                                we&apos;re replacing poverty with community and shame with dignity.
                                 We are part of a worldwide movement of similarly focused nonprofit organizations accelerating the momentum 
                                 by incubating ideas and exchanging mutual aid for the common and greater good.
                               </ExpendableText>
@@ -100,7 +100,7 @@ const Donate: NextPage = () => {
                             <Card.Title>GrassROOTS Community Foundation</Card.Title>
                             <ExpendableText maxHeight={70}>
                                 GrassROOTS Community Foundation (GCF) is a training organization with an emphasis on public health and 
-                                social action. We invest in our community members' collective well-being, and teach them how to use their 
+                                social action. We invest in our community members&apos; collective well-being, and teach them how to use their 
                                 healthy energy to transform themselves, their families and communities. 
                                 We support, develop and tailor wellness programs for women and girls, particularly those who grew up in economic distress. 
                                 We also advocate for policies and practices that reduce racial and gender disparities and foster equity.
@@ -140,8 +140,8 @@ const Donate: NextPage = () => {
                               No Period Without. was founded in 2017 when an Edmonton homeless 
                               woman asked Scarlet Bjornson for change. Out of curiosity, 
                               as Scarlet gave her some money she asked the woman what she planned to spend the money on. 
-                              The woman replied, “Well truthfully ma'am, I would like to buy some booze, 
-                              but I need to buy some tampons.” In Scarlet's words “This hit me like a brick. 
+                              The woman replied, “Well truthfully ma&apos;am, I would like to buy some booze, 
+                              but I need to buy some tampons.” In Scarlet&apos;s words “This hit me like a brick. 
                               I went to my car and grabbed my emergency stash of tampons from the car and gave them to her.” 
                               She took to social media to ask her friends if anyone was interested in helping with a tampon drive and the response was overwhelming
                               both from those that wanted to help, and from charitable organizations in the city hoping to be a recipient of the donations.
