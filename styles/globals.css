@@ -1,3 +1,33 @@
+:root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+
+    --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
+    --secondary-glow: linear-gradient(
+            to bottom right,
+            rgba(1, 65, 255, 0),
+            rgba(1, 65, 255, 0),
+            rgba(1, 65, 255, 0.3)
+    );
+
+    --tile-start-rgb: 2, 13, 46;
+    --tile-end-rgb: 2, 5, 19;
+    --tile-border: conic-gradient(
+            #ffffff80,
+            #ffffff40,
+            #ffffff30,
+            #ffffff20,
+            #ffffff10,
+            #ffffff10,
+            #ffffff80
+    );
+
+    --callout-rgb: 20, 20, 20;
+    --callout-border-rgb: 108, 108, 108;
+    --card-rgb: 100, 100, 100;
+    --card-border-rgb: 200, 200, 200;
+}
 
 .form{
     top: 20%;
@@ -8,4 +38,108 @@
     align-items: center;
     text-align: center;
     justify-content: flex-end;
+}
+
+.forgetPassword{
+    position: relative;
+    font-size: small;
+    padding-top: 2%;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.forgetPassword:hover{
+    color: gray;
+    text-decoration: underline;
+
+}
+
+.signInButton{
+    position: relative;
+    top: 20%;
+    left: 50%;
+    z-index: 1;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    max-width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color:#8F0606;
+}
+
+.combo{
+    display: flex;
+
+}
+
+.scroll-bd{
+    float:left;
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-width: 0.5rem;
+}
+.right-bd{
+    float:right;
+    background-color: brown;
+    height: 40%;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.finding_img{
+    max-width: 100%;
+    max-height: 110%;
+}
+.palms_img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.scrollspy-example{
+    display: flex;
+    position: relative;
+    height:630px;
+    width: 700px;
+    margin-top: 0.5rem;
+    overflow: auto;
+}
+.shelter_name{
+    font-family: "Lucida Grande";
+    color: #A52A2A;
+    line-height:2em;
+}
+.shelter_sub{
+    font-family: "Lucida Grande";
+    color: dimgray;
+    line-height:2em;
+}
+.shelter_information{
+    font-family: "Lucida Grande";
+    color: black;
+    line-height:2em;
+}
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+a {
+    color: inherit;
+    text-decoration: none;
 }
