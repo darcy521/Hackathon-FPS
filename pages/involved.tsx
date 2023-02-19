@@ -82,25 +82,11 @@ const Involved: NextPage = () => {
                         </Card>
                     </CardGroup>
                     </Container>
-                    {/* <CardGroup className={styles.donateDescriptionGroup}>
-                        <Card className={styles.donateDescription}>
-                            <Card.Title>Donate to charities</Card.Title>
-                            <Card.Text>We have collected a set of the related organizations’ information. If you want to donate to organizations committed to improving the menstrual poverty of homeless women, please click the button to find them.</Card.Text>
-                            <Button>Charity List</Button>
-                        </Card>
-                    </CardGroup> */}
-                    {/* </div> */}
                     
                 </CardGroup>
                 <CardGroup className={styles.imgFps}>
                             <Image src={'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/cloudbang.jpg?alt=media&token=1631cb6c-d1e6-423e-93a7-261b089d1d09'} 
                             alt='' width={'100%'} height={'40%'}/>
-                            {/* <Image src={'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Restroom.jpg?alt=media&token=9c1b7e11-4760-464a-b2be-8c1b06c11899'} 
-                            alt='' width={'25%'} height={300}/>
-                            <Image src={'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/putIntoRestroom.jpg?alt=media&token=a4305409-e235-4025-8910-6b9a35445601'} 
-                            alt='' width={'25%'} height={300}/>
-                            <Image src={'https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Yulin_Story.jpg?alt=media&token=9edb0080-28db-4fc0-b0dd-9c2b72e64d68'} 
-                            alt='' width={'25%'} height={300}/> */}
                         </CardGroup>
                 <Map/>   
         </>

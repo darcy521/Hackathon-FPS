@@ -46,7 +46,7 @@ const Donate: NextPage = () => {
                                 We listen to our BIPOC partners and we adjust our support based on the cultural and traditional preferences of the people we serve.
                               </ExpendableText>
                               <div className="col text-center">
-                                <Button href="https://www.helpingwomenperiod.org/make-a-donation/" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px'}} >Donate</Button>
+                                <Button href="https://www.helpingwomenperiod.org/make-a-donation/" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px', border:'none'}} >Donate</Button>
                               </div>
                               </Card.Body>
                           </Card>
@@ -66,7 +66,7 @@ const Donate: NextPage = () => {
                                 by incubating ideas and exchanging mutual aid for the common and greater good.
                               </ExpendableText>
                               <div className="col text-center">
-                                <Button href="https://periodproject.org/pages/donate" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px'}}>Donate</Button>
+                                <Button href="https://periodproject.org/pages/donate" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px', border:'none'}}>Donate</Button>
                               </div>
                               </Card.Body>
                           </Card>
@@ -85,7 +85,7 @@ const Donate: NextPage = () => {
                                 by period poverty and support local efforts for menstrual equity.
                               </ExpendableText>
                               <div className="col text-center">
-                                <Button href="https://period.org/donate" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px'}}>Donate</Button>
+                                <Button href="https://period.org/donate" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px', border:'none'}}>Donate</Button>
                               </div>
                               </Card.Body>
                           </Card>
@@ -108,7 +108,7 @@ const Donate: NextPage = () => {
                                 We also advocate for policies and practices that reduce racial and gender disparities and foster equity.
                             </ExpendableText>
                             <div className="col text-center">
-                              <Button href = "https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=CF4VNY68MK9WE&source=url" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px'}}>Donate</Button>
+                              <Button href = "https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=CF4VNY68MK9WE&source=url" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px', border:'none'}}>Donate</Button>
                             </div>
                             </Card.Body>
                         </Card>
@@ -126,7 +126,7 @@ const Donate: NextPage = () => {
                                 We also work to debunk the social stigma around menstruation by making it an open topic of discussion in our community.
                             </ExpendableText>
                             <div className="col text-center">
-                              <Button href="https://www.theperiodpovertyproject.org/donate" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px'}}>Donate</Button>
+                              <Button href="https://www.theperiodpovertyproject.org/donate" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px', border:'none'}}>Donate</Button>
                             </div>
                           </Card.Body>
                         </Card>
@@ -149,7 +149,7 @@ const Donate: NextPage = () => {
                               both from those that wanted to help, and from charitable organizations in the city hoping to be a recipient of the donations.
                           </ExpendableText>
                           <div className="col text-center">
-                            <Button href="https://noperiodwithout.com/donate/" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px'}}>Donate</Button>
+                            <Button href="https://noperiodwithout.com/donate/" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px', border:'none'}}>Donate</Button>
                           </div>
                           </Card.Body>
                         </Card>

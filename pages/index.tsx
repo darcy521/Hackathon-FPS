@@ -75,7 +75,7 @@ const Home: NextPage = () => {
                                     <Card.Body>
                                         <h1>3 Steps to helps</h1>
                                         <div className="col text-center">
-                                            <Button href="/involved" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px'}} >Learn more</Button>
+                                            <Button href="/involved" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px', border:'none'}} >Learn more</Button>
                                         </div>
                                     </Card.Body>
                                 </Card>
@@ -88,7 +88,7 @@ const Home: NextPage = () => {
                                     <Card.Body>
                                         <h1>Donate to charities</h1>
                                         <div className="col text-center">
-                                            <Button href="/donate" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px'}}>Donate</Button>
+                                            <Button href="/donate" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px',border:'none'}}>Donate</Button>
                                         </div>
                                     </Card.Body>
                                 </Card>
