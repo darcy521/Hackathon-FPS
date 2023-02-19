@@ -275,3 +275,8 @@
   display: flex;
   flex-direction: column;
 }
+
+.slogan{
+  font-size: 7em;
+  font-family: "Brush Script MT";
+}
