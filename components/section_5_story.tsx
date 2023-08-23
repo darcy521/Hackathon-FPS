@@ -21,9 +21,24 @@ function Section_5_Story() {
       </MDBCardBody>
     </MDBCard> */}
 
-    <Carousel data-bs-theme="dark" style={{minHeight: '98vh'}}>
+    <Carousel data-bs-theme="dark" style={{minHeight: '100vh', background:"url('../assets/story-background.png')"}} 
+      className='shadow-0 bg-transparent'>
       <Carousel.Item>
-        <MDBCard alignment='center'>
+        <div style={{minHeight:'100vh', display:'flex', alignItems:'center', justifyContent:'center'}}>
+          <MDBCard alignment='center' className='shadow-0 bg-transparent'>
+            <MDBCardBody>
+              <MDBCardTitle>Special title treatment</MDBCardTitle>
+              <MDBCardImage style={{borderRadius: '50%', height: '120px', width:'120px'}} 
+              src='https://mdbootstrap.com/img/new/standard/city/041.webp' alt='...' position='top' 
+              />
+              <MDBCardText>With supporting text below as a natural lead-in to additional content.</MDBCardText>
+            </MDBCardBody>
+          </MDBCard>
+        </div>
+      </Carousel.Item>
+      <Carousel.Item>
+        <div style={{minHeight:'100vh', display:'flex', alignItems:'center', justifyContent:'center'}}>
+        <MDBCard alignment='center' className='shadow-0 bg-transparent'>
           <MDBCardBody>
             <MDBCardTitle>Special title treatment</MDBCardTitle>
             <MDBCardImage style={{borderRadius: '50%', height: '120px', width:'120px'}} 
@@ -32,32 +47,20 @@ function Section_5_Story() {
             <MDBCardText>With supporting text below as a natural lead-in to additional content.</MDBCardText>
           </MDBCardBody>
         </MDBCard>
+        </div>
       </Carousel.Item>
       <Carousel.Item>
-        <MDBCard alignment='center'>
-          <MDBCardBody>
-            <MDBCardTitle>Special title treatment</MDBCardTitle>
-            <MDBCardImage style={{borderRadius: '50%', height: '120px', width:'120px'}} 
-            src='https://mdbootstrap.com/img/new/standard/city/041.webp' alt='...' position='top' 
-            />
-            <MDBCardText>With supporting text below as a natural lead-in to additional content.</MDBCardText>
-          </MDBCardBody>
-        </MDBCard>
-      </Carousel.Item>
-      <Carousel.Item>
-        <Image
-          className="d-block w-100"
-          src= {"https://mdbootstrap.com/img/new/standard/city/041.webp"}
-          alt="Third slide"
-          width={'25'}
-          height={'500'}
-        />
-        <Carousel.Caption>
-          <h5>Third slide label</h5>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
+        <div style={{minHeight:'100vh', display:'flex', alignItems:'center', justifyContent:'center'}}>
+          <MDBCard alignment='center' className='shadow-0 bg-transparent'>
+            <MDBCardBody>
+              <MDBCardTitle>Special title treatment</MDBCardTitle>
+              <MDBCardImage style={{borderRadius: '50%', height: '120px', width:'120px'}} 
+              src='https://mdbootstrap.com/img/new/standard/city/041.webp' alt='...' position='top' 
+              />
+              <MDBCardText>With supporting text below as a natural lead-in to additional content.</MDBCardText>
+            </MDBCardBody>
+          </MDBCard>
+        </div>
       </Carousel.Item>
     </Carousel>
 

@@ -110,7 +110,7 @@ const Home: NextPage = () => {
                         </Card>
                     </CardGroup>
                 </div> */}
-                <div>
+                {/* <div>
                     <CardGroup className={styles.ourGoals}>
                         <Card className={styles.txtGroup}>
                             <Card.Title className={styles.goalTitle}>Our Goal</Card.Title>
@@ -120,7 +120,7 @@ const Home: NextPage = () => {
                             </Card.Text>
                         </Card>
                     </CardGroup>
-                </div>
+                </div> */}
             </CardGroup>
 
     </>

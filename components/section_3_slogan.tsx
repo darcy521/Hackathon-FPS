@@ -12,8 +12,10 @@ import {
 function Section_3_Slogan() {
   return (
     <>
-      <MDBCard alignment='center'>
-        <MDBCardBody>
+      <MDBCard alignment='center' className='bg-transparent shadow-0'
+      style={{minHeight:'100vh', background: "url('../assets/slogan-background.png') no-repeat scroll center"}}
+      >
+        <MDBCardBody style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
           <MDBCardTitle>Special title treatment</MDBCardTitle>
           <MDBCardImage style={{borderRadius: '50%', height: '120px', width:'120px'}} 
           src='https://mdbootstrap.com/img/new/standard/city/041.webp' alt='...' position='top' 
