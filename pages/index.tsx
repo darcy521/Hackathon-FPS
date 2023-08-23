@@ -9,6 +9,7 @@ import Section_1_Carousel from '@/components/section_1_carousel';
 import Section_2_Goal from '@/components/section_2_goal';
 import Section_4_Leadership from '@/components/section_4_leadership';
 import Section_3_Slogan from '@/components/section_3_slogan';
+import Section_3plus_GetInvolved from '@/components/section_3plus_getInvolved';
 import Section_5_Story from '@/components/section_5_story';
 
 
@@ -40,6 +41,7 @@ const Home: NextPage = () => {
             <Section_1_Carousel></Section_1_Carousel>
             <Section_2_Goal></Section_2_Goal>
             <Section_3_Slogan></Section_3_Slogan>
+            <Section_3plus_GetInvolved></Section_3plus_GetInvolved>
             <Section_4_Leadership></Section_4_Leadership>
             <Section_5_Story></Section_5_Story>
 
