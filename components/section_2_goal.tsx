@@ -19,13 +19,11 @@ function Section_2_Goal() {
         <MDBCol md='8'>
           <MDBCardBody>
             <MDBCardTitle style={{ display: 'flex', alignItems:'center', justifyContent:'center'}}
-            >Card title</MDBCardTitle>
+            >Welcome to the Female Period Support Project!</MDBCardTitle>
             <MDBCardText>
-              This is a wider card with supporting text below as a natural lead-in to additional content. This
-              content is a little bit longer.
-            </MDBCardText>
-            <MDBCardText>
-              <small className='text-muted'>Last updated 3 mins ago</small>
+              Our organization is dedicated to making a positive impact on the lives of homeless women by ensuring their access to essential menstrual products.
+              At the heart of our mission is the belief that every woman should have the right to maintain proper hygiene and dignity, regardless of their economic status. We understand the challenges that homeless women face, and we are committed to starting with small actions that can lead to significant change.
+              Through our website and initiatives, we aim to raise awareness and inspire individuals who share our passion for helping women experiencing homelessness. Together, we can work towards a more inclusive and compassionate society where every woman basic needs are met.
             </MDBCardText>
           </MDBCardBody>
         </MDBCol>

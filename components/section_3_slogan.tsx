@@ -16,11 +16,10 @@ function Section_3_Slogan() {
       style={{minHeight:'100vh', background: "url('../assets/slogan-background.png') no-repeat scroll center"}}
       >
         <MDBCardBody style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
-          <MDBCardTitle>Special title treatment</MDBCardTitle>
-          <MDBCardImage style={{borderRadius: '50%', height: '120px', width:'120px'}} 
-          src='https://mdbootstrap.com/img/new/standard/city/041.webp' alt='...' position='top' 
-          />
-          <MDBCardText>With supporting text below as a natural lead-in to additional content.</MDBCardText>
+          <div className="fps_slogan-section">
+            <div className="logo-font android-slogan">Even little helps!</div>
+            <div className="logo-font android-sub-slogan">Join us in making a difference</div>
+          </div>
         </MDBCardBody>
       </MDBCard>
     </>

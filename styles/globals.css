@@ -164,3 +164,29 @@ a {
 body {
     font-family: Roboto, Helvetica, Arial, sans-serif;
   }
+
+.fps_slogan-section {
+    position: relative;
+    height: 800px;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url('https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/homepage_start.GIF?alt=media&token=7f369495-a24a-4691-aeb3-3aaebf1f1283') center 30% no-repeat;
+    background-size: cover;
+}
+
+.logo-font {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    line-height: 1;
+    color: hotpink;
+    font-weight: 500;
+}
+
+.android-slogan {
+    font-size: 6rem;
+    padding-top: 30rem;
+}
+
+.android-sub-slogan {
+    font-size: 3rem;
+    padding-top: 3rem;
+}
