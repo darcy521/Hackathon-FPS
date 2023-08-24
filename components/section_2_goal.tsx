@@ -18,9 +18,9 @@ function Section_2_Goal() {
         </MDBCol>
         <MDBCol md='8'>
           <MDBCardBody>
-            <MDBCardTitle style={{ display: 'flex', alignItems:'center', justifyContent:'center'}}
+            <MDBCardTitle style={{ display: 'flex',fontSize:'1.6em',textAlign:'center',alignItems:'center', justifyContent:'center',fontFamily: 'brandon-grotesque, sans-serif'}}
             >Welcome to the Female Period Support Project!</MDBCardTitle>
-            <MDBCardText>
+            <MDBCardText style={{textAlign:'center',fontSize:'1.2em',fontFamily: 'brandon-grotesque, sans-serif'}}>
               Our organization is dedicated to making a positive impact on the lives of homeless women by ensuring their access to essential menstrual products.
               At the heart of our mission is the belief that every woman should have the right to maintain proper hygiene and dignity, regardless of their economic status. We understand the challenges that homeless women face, and we are committed to starting with small actions that can lead to significant change.
               Through our website and initiatives, we aim to raise awareness and inspire individuals who share our passion for helping women experiencing homelessness. Together, we can work towards a more inclusive and compassionate society where every woman basic needs are met.
