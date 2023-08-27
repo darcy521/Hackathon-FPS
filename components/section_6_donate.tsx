@@ -21,28 +21,28 @@ function Section_6_Donate(){
             <MDBCardGroup style={{padding: '2%'}}>
                 <MDBCard className='shadow-0'>
                     <div style={{width:'100%', height:'max-content', display: 'flex', alignItems:'center', justifyContent:'center', paddingTop:'4%'}}>
-                                <MDBCardImage style={{ height: '120px', width:'auto'}}
+                                <MDBCardImage className={styles.zoom} style={{ height: '130px', width:'auto'}}
                                               src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/HelpingWomenPeriod_Logo.png?alt=media&token=65ae556b-eeee-45fa-9b28-98c0a6c6d764" alt='...' position='top'
                                 />
                     </div>
                 </MDBCard>
                 <MDBCard className='shadow-0'>
                     <div style={{width:'100%', height:'max-content', display: 'flex', alignItems:'center', justifyContent:'center', paddingTop:'4%'}}>
-                        <MDBCardImage style={{ height: '120px', width:'auto'}}
+                        <MDBCardImage className={styles.zoom} style={{ height: '130px', width:'auto'}}
                                       src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/PeriodProject_Logo.png?alt=media&token=193717d8-900a-4d92-8057-321a7fc99bfb" alt='...' position='top'
                         />
                     </div>
                 </MDBCard>
                 <MDBCard className='shadow-0'>
                     <div style={{width:'100%', height:'max-content', display: 'flex', alignItems:'center', justifyContent:'center', paddingTop:'4%'}}>
-                                <MDBCardImage style={{ height: '120px', width:'auto'}}
+                                <MDBCardImage className={styles.zoom} style={{ height: '130px', width:'auto'}}
                                               src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Period_Logo.png?alt=media&token=975718c7-67db-478b-a4ac-6ba49700e458" alt='...' position='top'
                                 />
                     </div>
                 </MDBCard>
                 <MDBCard className='shadow-0'>
                     <div style={{width:'100%', height:'max-content', display: 'flex', alignItems:'center', justifyContent:'center', paddingTop:'4%'}}>
-                        <MDBCardImage style={{ height: '120px', width:'auto'}}
+                        <MDBCardImage className={styles.zoom} style={{ height: '130px', width:'auto'}}
                                       src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/PeriodPoveryuProject_Logo.png?alt=media&token=388191c9-985d-46f2-8d6a-72e6bf5b2115" alt='...' position='top'
                         />
                     </div>

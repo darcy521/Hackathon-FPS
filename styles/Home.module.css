@@ -377,3 +377,9 @@
   transition: 0s;
   transform: translate(0, 5%);
 }
+.zoom{
+  transition: transform .4s; /* Animation */
+}
+.zoom:hover{
+  transform: scale(1.1);
+}
