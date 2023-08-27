@@ -12,7 +12,7 @@ function Section_6_Donate(){
     return(
         <div style={{minHeight: '100vh'}}>
             <h1 style={{textAlign: 'center',marginTop:'15%',lineHeight:'1.5',fontFamily:'brandon-grotesque'}}>What you can do besides in-person donation...</h1>
-            <div style={{ display: 'flex',justifyContent:'center',alignItems:'center',paddingTop:'5%'}}>
+            <div style={{ display: 'flex',justifyContent:'center',alignItems:'center'}}>
                 <div style={{width:'80%',textAlign:'center',fontSize:'1.4em',fontFamily:'brandon-grotesque',lineHeight:'1.6'}}>
                         By embracing the power of online giving, you&apos;re not only transforming the lives of homeless women but also fostering a culture of compassion and inclusivity. Your donation ripples outward, inspiring
                         others to join this noble cause and make a collective impact.
@@ -57,7 +57,7 @@ function Section_6_Donate(){
                 </MDBCard>
             </MDBCardGroup>
 
-            <div style={{display:'flex',alignItems:'center',justifyContent:'center',paddingTop:'0%',paddingBottom:'55px'}}>
+            <div style={{display:'flex',alignItems:'center',justifyContent:'center',paddingTop:'5%'}}>
                 <Button  href = "/donate" role='button' style={{background:'#fff',boxShadow:'none'}} className={styles.button86}>learn more</Button>
             </div>
 
