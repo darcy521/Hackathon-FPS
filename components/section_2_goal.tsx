@@ -24,13 +24,13 @@ function Section_2_Goal() {
               <MDBCardTitle style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '4rem', fontWeight: 'bold', marginBottom: '3rem' }}>
                 Female Period Support Project!
               </MDBCardTitle>
-              <MDBCardText style={{ fontSize: '20px', lineHeight: '1.6', fontFamily:'Lucida Grande' }}>
+              <MDBCardText style={{ fontSize: '18px', lineHeight: '1.6', fontFamily:'Lucida Grande' }}>
                 Our organization is dedicated to making a positive impact on the lives of homeless women by ensuring their access to essential menstrual products.
               </MDBCardText>
-              <MDBCardText style={{ fontSize: '20px', lineHeight: '1.6', fontFamily:'Lucida Grande' }}>
+              <MDBCardText style={{ fontSize: '18px', lineHeight: '1.6', fontFamily:'Lucida Grande' }}>
                 At the heart of our mission is the belief that every woman should have the right to maintain proper hygiene and dignity, regardless of their economic status. We understand the challenges that homeless women face, and we are committed to starting with small actions that can lead to significant change.
               </MDBCardText>
-              <MDBCardText style={{ fontSize: '20px', lineHeight: '1.6', fontFamily:'Lucida Grande' }}>
+              <MDBCardText style={{ fontSize: '18px', lineHeight: '1.6', fontFamily:'Lucida Grande' }}>
                 {/* eslint-disable-next-line react/no-unescaped-entities */}
                 Through our website and initiatives, we aim to raise awareness and inspire individuals who share our passion for helping women experiencing homelessness. Together, we can work towards a more inclusive and compassionate society where every woman's basic needs are met.
               </MDBCardText>
