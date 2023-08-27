@@ -10,7 +10,7 @@ import {
 
 function Section_3plus_GetInvolved() {
     return (
-        <div>
+        <div style={{minHeight:'100vh'}}>
                 <h1 style={{textAlign: 'center',marginTop: '20px',lineHeight : '1.5',fontFamily: 'brandon-grotesque, sans-serif'}}>
                     <a href="\involved" style={{textDecoration:'none',color:'#A52A2A'}}>
                         Get Involved
