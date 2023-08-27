@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from '@/styles/Home.module.css';
 import {
     MDBCard,
     MDBCardTitle,
@@ -11,7 +12,7 @@ import {
 function Section_3plus_GetInvolved() {
     return (
         <div style={{minHeight:'100vh', display:'flex', flexDirection:'column', justifyContent:'center'}}>
-                <h1 style={{textAlign: 'center',marginTop: '20px',lineHeight : '1.5',fontFamily: 'brandon-grotesque, sans-serif'}}>
+                <h1 className={styles.zoom} style={{textAlign: 'center',marginTop: '20px',lineHeight : '1.5',fontFamily: 'brandon-grotesque, sans-serif'}}>
                     <a href="\involved" style={{textDecoration:'none',color:'#A52A2A',fontSize:'1.8em'}}>
                         Get Involved
                     </a>
