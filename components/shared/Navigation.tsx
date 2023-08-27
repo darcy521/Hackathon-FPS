@@ -28,7 +28,7 @@ const Navigation = () => {
                 </Container>
                 </Navbar> */}
 
-            <Navbar expand="lg" className="bg-body-tertiary">
+            <Navbar expand="lg" className="bg-body-tertiary" style={{position:'fixed', left:'0', top:'0', right:'0', zIndex:'5'}}>
             <Container fluid>
                 <Navbar.Brand href="#">
                     <Image src={"https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/FPS_new_logo.jpg?alt=media&token=ed4eb9b4-5ecf-48c1-a52b-a7a158a98558"} 

@@ -11,7 +11,7 @@ import {
 
 function Section_2_Goal() {
   return (
-      <MDBCard style={{ maxWidth: '100%', minWidth: '100%', minHeight: '100vh', textAlign: 'center'  }}>
+      <MDBCard style={{ maxWidth: '100%', minWidth: '100%', minHeight: '100vh', textAlign: 'center', display:'flex', justifyContent:'center'  }}>
         <MDBRow className='g-0'>
           <MDBCol md='4' style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <MDBCardImage src='https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Ziploc_Slogan.jpg?alt=media&token=4c18251c-eec6-4112-a7a4-f882789a1c95' alt='...' fluid style={{ maxWidth: '100%', minWidth: '100%', maxHeight: '70vh' }}/>
