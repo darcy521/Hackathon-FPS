@@ -13,7 +13,7 @@ function Section_3_Slogan() {
   return (
     <>
       <MDBCard alignment='center' className='bg-transparent shadow-0'
-      style={{minHeight:'100vh', background: "url('../assets/slogan-background.png') no-repeat scroll center"}}
+      style={{minHeight:'80vh', background: "url('../assets/slogan-background.png') no-repeat scroll center"}}
       >
         <MDBCardBody style={{display:'flex', flexDirection:'column', justifyContent:'center', alignItems:'center'}}>
           <div className="fps_slogan-section">
