@@ -10,7 +10,7 @@ import {
 import styles from '@/styles/Home.module.css';
 function Section_6_Donate(){
     return(
-        <div>
+        <div style={{minHeight: '100vh'}}>
             <h1 style={{textAlign: 'center',marginTop:'15%',lineHeight:'1.5',fontFamily:'brandon-grotesque'}}>What you can do besides in-person donation...</h1>
             <div style={{ display: 'flex',justifyContent:'center',alignItems:'center',paddingTop:'5%'}}>
                 <div style={{width:'80%',textAlign:'center',fontSize:'1.4em',fontFamily:'brandon-grotesque',lineHeight:'1.6'}}>
