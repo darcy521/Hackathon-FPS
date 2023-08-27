@@ -11,7 +11,7 @@ import styles from '@/styles/Home.module.css';
 function Section_6_Donate(){
     return(
         <div style={{minHeight: '100vh'}}>
-            <h1 style={{textAlign: 'center',marginTop:'15%',lineHeight:'1.5',fontFamily:'brandon-grotesque',fontSize:'2.5em',paddingBottom:'5vh'}}>What you can do besides in-person donation <span style={{fontSize:'0.6em',color:'#D58989'}}>&#9660;</span></h1>
+            <h1 style={{textAlign: 'center',marginTop:'15%',lineHeight:'1.5',fontFamily:'brandon-grotesque',fontSize:'2.5em',paddingBottom:'5vh'}}>What you can do besides in-person donation <span style={{fontSize:'0.6em',color:'#FC79AB'}}>&#9660;</span></h1>
             <div style={{ display: 'flex',justifyContent:'center',alignItems:'center'}}>
                 <div style={{width:'80%',textAlign:'center',fontSize:'1.5em',fontFamily:'brandon-grotesque',lineHeight:'1.6',paddingBottom:'5vh'}}>
                         By embracing the power of online giving, you&apos;re not only transforming the lives of homeless women but also fostering a culture of compassion and inclusivity. Your donation ripples outward, inspiring
@@ -49,7 +49,7 @@ function Section_6_Donate(){
                 </MDBCard>
             </MDBCardGroup>
 
-            <div style={{display:'flex',alignItems:'center',justifyContent:'center',paddingTop:'5vh', paddingBottom:'5vh'}}>
+            <div style={{display:'flex',alignItems:'center',justifyContent:'center',paddingTop:'10vh', paddingBottom:'5vh'}}>
                 <Button  href = "/donate" role='button' style={{background:'#fff',boxShadow:'none'}} className={styles.button86}>learn more</Button>
             </div>
 
