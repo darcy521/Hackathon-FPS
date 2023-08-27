@@ -18,7 +18,7 @@ function Section_2_Goal() {
           </MDBCol>
           <MDBCol md='8'>
             <MDBCardBody >
-              <MDBCardTitle style={{ display: 'flex',  fontSize: '4rem', fontWeight: 'bold', marginBottom: '2rem' }}>
+              <MDBCardTitle style={{ display: 'flex',  fontSize: '4rem', fontWeight: 'bold', alignItems: 'center', justifyContent: 'center', marginBottom: '2rem' }}>
                 Welcome to
               </MDBCardTitle>
               <MDBCardTitle style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '4rem', fontWeight: 'bold', marginBottom: '3rem' }}>
