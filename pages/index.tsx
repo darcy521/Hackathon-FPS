@@ -9,7 +9,9 @@ import Section_1_Carousel from '@/components/section_1_carousel';
 import Section_2_Goal from '@/components/section_2_goal';
 import Section_4_Leadership from '@/components/section_4_leadership';
 import Section_3_Slogan from '@/components/section_3_slogan';
+import Section_3plus_GetInvolved from '@/components/section_3plus_getInvolved';
 import Section_5_Story from '@/components/section_5_story';
+import Section_6_Donate from '@/components/section_6_donate';
 
 
 const Home: NextPage = () => {
@@ -40,10 +42,12 @@ const Home: NextPage = () => {
             <Section_1_Carousel></Section_1_Carousel>
             <Section_2_Goal></Section_2_Goal>
             <Section_3_Slogan></Section_3_Slogan>
+            <Section_3plus_GetInvolved></Section_3plus_GetInvolved>
             <Section_4_Leadership></Section_4_Leadership>
             <Section_5_Story></Section_5_Story>
+            <Section_6_Donate></Section_6_Donate>
 
-            <CardGroup className={styles.homePage}>
+            {/*<CardGroup className={styles.homePage}>*/}
                 {/* <div>
                     <CardGroup className={styles.ourGoals}>
                         <Card className={styles.txtGroup}>
@@ -59,44 +63,44 @@ const Home: NextPage = () => {
                         </Card>
                     </CardGroup>
                 </div> */}
-                <div className="container">
-                    <CardGroup className={styles.getInvolved}>
-                        <h1>Get Involved</h1>
-                    </CardGroup>
-                    <div>
+                {/*<div className="container">*/}
+                {/*    <CardGroup className={styles.getInvolved}>*/}
+                {/*        <h1>Get Involved</h1>*/}
+                {/*    </CardGroup>*/}
+                {/*    <div>*/}
 
-                        <div style={{ display: "flex" , padding: "2em"}} >
+                {/*        <div style={{ display: "flex" , padding: "2em"}} >*/}
 
-                            <div className ="col-7 align-content-center">
-                                <Card style={{ width: '30rem' }}>
-                                    <Card.Img className = "card_image"
-                                              variant="top"
-                                              src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Ziploc_Slogan.jpg?alt=media&token=4c18251c-eec6-4112-a7a4-f882789a1c95"/>
-                                    <Card.Body>
-                                        <h1>3 Steps to helps</h1>
-                                        <div className="col text-center">
-                                            <Button href="/involved" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px', border:'none'}} >Learn more</Button>
-                                        </div>
-                                    </Card.Body>
-                                </Card>
-                            </div>
-                            <div className ="col-7 align-content-center">
-                                <Card style={{ width: '30rem' }}>
-                                    <Card.Img className = "card_image"
-                                              variant="top"
-                                              src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/PeriodProject_Logo.png?alt=media&token=193717d8-900a-4d92-8057-321a7fc99bfb" />
-                                    <Card.Body>
-                                        <h1>Donate to charities</h1>
-                                        <div className="col text-center">
-                                            <Button href="/donate" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px',border:'none'}}>Donate</Button>
-                                        </div>
-                                    </Card.Body>
-                                </Card>
-                            </div>
-                        </div>
+                {/*            <div className ="col-7 align-content-center">*/}
+                {/*                <Card style={{ width: '30rem' }}>*/}
+                {/*                    <Card.Img className = "card_image"*/}
+                {/*                              variant="top"*/}
+                {/*                              src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/Ziploc_Slogan.jpg?alt=media&token=4c18251c-eec6-4112-a7a4-f882789a1c95"/>*/}
+                {/*                    <Card.Body>*/}
+                {/*                        <h1>3 Steps to helps</h1>*/}
+                {/*                        <div className="col text-center">*/}
+                {/*                            <Button href="/involved" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px', border:'none'}} >Learn more</Button>*/}
+                {/*                        </div>*/}
+                {/*                    </Card.Body>*/}
+                {/*                </Card>*/}
+                {/*            </div>*/}
+                {/*            <div className ="col-7 align-content-center">*/}
+                {/*                <Card style={{ width: '30rem' }}>*/}
+                {/*                    <Card.Img className = "card_image"*/}
+                {/*                              variant="top"*/}
+                {/*                              src="https://firebasestorage.googleapis.com/v0/b/female-period-support.appspot.com/o/PeriodProject_Logo.png?alt=media&token=193717d8-900a-4d92-8057-321a7fc99bfb" />*/}
+                {/*                    <Card.Body>*/}
+                {/*                        <h1>Donate to charities</h1>*/}
+                {/*                        <div className="col text-center">*/}
+                {/*                            <Button href="/donate" variant="primary" size="lg" style = {{background: '#A52A2A', width: '200px',border:'none'}}>Donate</Button>*/}
+                {/*                        </div>*/}
+                {/*                    </Card.Body>*/}
+                {/*                </Card>*/}
+                {/*            </div>*/}
+                {/*        </div>*/}
 
-                    </div>
-                </div>
+                {/*    </div>*/}
+                {/*</div>*/}
                 {/* <div>
                     <CardGroup className={styles.startImg}>
                         <Card className={styles.startCardImg}>
@@ -121,7 +125,7 @@ const Home: NextPage = () => {
                         </Card>
                     </CardGroup>
                 </div> */}
-            </CardGroup>
+            {/*</CardGroup>*/}
 
     </>
   )
